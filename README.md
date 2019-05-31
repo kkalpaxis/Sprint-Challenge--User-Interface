@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a form of HTML that provides meaning to the code you are creating. An example of semantic HTML is the <p> tag. This tag indicates to a browser that the text contained within it is a part of a paragraph. Without semantic HTML, the browser would just see it as ordinary text. Semantic HTML allows us to increase the browser's understanding of the information it is displaying. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+One difference is that display block will take up the entire width of the screen (100%) whereas display inline will take upa  specified amount. Another difference is that display block will force a line break whereas display inline won't.
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align works on the cross axis. Justify works on the main.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to developers because it can take on the role of a time machine. Git allows developers to work on their own branches, merge them in the end, and (most importantly) go back if they want to undo any changes. This is invaluable in a situation where a developer commits a change to the master that has bugs or doesn't function properly. With git we can undo that change. Git is also valuable (as I learned today!) because it works offline. You can save you work from VS Code with git and then upload it later when you get the chance. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
