@@ -81,7 +81,7 @@ nav a {
     color: black;
 }
 
-.highway{
+.jumbo{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -267,4 +267,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-header{
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.about-top-content{
+    width: 880px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.about-top-content .about-text-container{
+    width: 400px;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+    padding-bottom: 15px;
+
+}
+
+.about-top-content .about-text-container button:hover{
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.about-bottom-content{
+    width: 880px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about-bottom-content .about-text-container{
+    width: 400px;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+.about-bottom-content .about-text-container button:hover{
+    width: 40%;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.about-footer{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
 }
